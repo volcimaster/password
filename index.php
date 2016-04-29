@@ -21,7 +21,7 @@
 <div id="page">
 
 <div id="intro">
-   <p>Every time this page loads, you will see several random string triplets ranging from 12-24 characters, one each of three different varieties.</p> <p>There are <a href="//stackoverflow.com/q/5950756/4418">"4 of 4"</a>, "upper &amp; lower alphanumeric", and "lower alphanumeric" types.
+   <p>Every time this page loads, you will see several random string triplets ranging from 12-24 characters, one each of three different varieties (<a href="//stackoverflow.com/q/5950756/4418">"4 of 4"</a>, "upper &amp; lower alphanumeric", and "lower alphanumeric").
 </div>
 
 <div id=codice>
