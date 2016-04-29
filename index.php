@@ -126,7 +126,8 @@
 <div id="footer">
 <address>Copyright &copy; 2016-<?php echo date("Y")." ";?>
 by <a href="//antipaucity.com">Warren Myers</a>. 
-All rights reserved. Loaded <?php echo date("jS M Y H:i");?> UTC.
+Somce rights reserved - <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>. 
+Loaded <?php echo date("jS M Y H:i");?> UTC.
 </address>
 </div>
 
