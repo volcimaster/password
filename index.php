@@ -15,7 +15,7 @@
       */ ?>
 
 <div id="header">
-<h1>Password Generator</h1>
+<h1><a href="/"></a>Password Generator</a></h1>
 </div>
 
 <div id="page">
