@@ -35,29 +35,29 @@
 		'(',')','_','+','=','-','?');
   $seed = intval(date("dmHs"));
   if(isset($kt))
-	srand(($seed+rand(1,$m)));
+	srand(($seed+rand(1,$seed)));
   else
 	srand($seed);
 
   echo "<p><code>";
   $kt = 0;
-  $m = intval(date("sHs"));
+  $seed = intval(date("sHs"));
   while($kt<12){
-    $s = (rand(1,$m) % 77);
+    $s = (rand(1,$seed) % 77);
     echo $p[$s];
     $kt++;
   }
   echo "</code><p><code>";
   $kt = 0;
   while($kt<12){
-    $s = (rand(1,$m) % 62);
+    $s = (rand(1,$seed) % 62);
     echo $p[$s];
     $kt++;
   }
   echo "</code><p><code>";
   $kt = 0;
   while($kt<12){
-    $s = (rand(1,$m) % 36);
+    $s = (rand(1,$seed) % 36);
     echo $p[$s];
     $kt++;
   }
@@ -69,23 +69,23 @@
 <?php
   echo "<p><code>";
   $kt = 0;
-  $m = intval(date("sHs"));
+  $seed = intval(date("sHs"));
   while($kt<16){
-    $s = (rand(1,$m) % 77);
+    $s = (rand(1,$seed) % 77);
     echo $p[$s];
     $kt++;
   }
   echo "</code><p><code>";
   $kt = 0;
   while($kt<16){
-    $s = (rand(1,$m) % 62);
+    $s = (rand(1,$seed) % 62);
     echo $p[$s];
     $kt++;
   }
   echo "</code><p><code>";
   $kt = 0;
   while($kt<16){
-    $s = (rand(1,$m) % 36);
+    $s = (rand(1,$seed) % 36);
     echo $p[$s];
     $kt++;
   }
@@ -97,23 +97,23 @@
 <?php
   echo "<p><code>";
   $kt = 0;
-  $m = intval(date("sHs"));
+  $seed = intval(date("sHs"));
   while($kt<24){
-    $s = (rand(1,$m) % 77);
+    $s = (rand(1,$seed) % 77);
     echo $p[$s];
     $kt++;
   }
   echo "</code><p><code>";
   $kt = 0;
   while($kt<24){
-    $s = (rand(1,$m) % 62);
+    $s = (rand(1,$seed) % 62);
     echo $p[$s];
     $kt++;
   }
   echo "</code><p><code>";
   $kt = 0;
   while($kt<24){
-    $s = (rand(1,$m) % 36);
+    $s = (rand(1,$seed) % 36);
     echo $p[$s];
     $kt++;
   }
