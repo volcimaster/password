@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^password/([^/]+)/([^/]+) password.php?size=$1&type=$2
+</IfModule>
