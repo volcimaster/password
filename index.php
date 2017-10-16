@@ -120,6 +120,20 @@
   echo "</code><p>\n";
 ?>
 </div>
+<div id=codice>
+<h1>~50 Character Passphrase</h1>
+<?php
+  $list = "";
+  $words = file("detros.list");
+  while(strlen($list) < 50){
+    $ndx = rand(0,count($words));
+    $list .= $words[$ndx];
+  }
+  echo "<p><code>";
+  echo $list;
+  echo "</code>";
+?>
+</div>
 
 </div>
 
